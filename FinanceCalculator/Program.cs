@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ProjectName
+namespace FinanceCalculator
 {
-  class Program
+  class FinanceCalculator
   {
     static void Main(string[] args)
     {
