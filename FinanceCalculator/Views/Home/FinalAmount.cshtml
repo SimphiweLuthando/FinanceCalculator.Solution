@@ -15,7 +15,7 @@
                 <p class="card-text">Principal Amount: <span id="principalAmount">R @Model.Amount</span></p>
                 <p class="card-text">Annual Interest Rate: <span id="annualRate">@Model.Rate%</span></p>
                 <p class="card-text">Term: <span id="termYears">@Model.Term years</span></p>
-                <p class="card-text">Final Amount: <span id="finalAmount">R @Model.FinalAmount</span></p>
+                <p class="card-text fw-bold text-success">Final Amount: <span id="finalAmount">R @Model.FinalAmount.ToString("F2")</span></p>
                 <a href="/" class="btn btn-primary">New Calculation</a>
             </div>
         </div>
